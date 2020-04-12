@@ -1,31 +1,40 @@
-.entry {
-background-image: url(../assets/backgrounds/h_img.jpg);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+.introduction{
+  background-image: url(../assets/backgrounds/h_img.jpg);
 background-position: center;
 background-size: cover;
-background-repeat: no-repeat;
-color:white;
 text-align: center;
-padding: 15%;
+color: white;
+padding: 18%;
+}
+.mouse-click{
+ padding-top: 20px;
+}
+#mouse-click {
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%,20%,50%,80%,100%{
+    transform:translateY(0);
+  }
+  40%{
+    transform: translateY(-55px);
+  }
+  60%{
+    transform: translateY(-45px);
+  }
 }
 .about {
   text-align: center;
+  padding-bottom: 30px;
+  padding-top: 40px;
+  font-family: "sans-serif" monospace;
 }
 .services {
   background-image: url(../assets/backgrounds/s_image.jpg);
-  color: white;
+  background-position: center;
+  background-size: cover;
   text-align: center;
+color: white;
   padding: 10%;
-}
-.portfolio {
-  margin: 5px;
-}
-.center {
-  position: absolute;
-  left: 50%;
-margin-top: 70px;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-.user-details {
-  margin: 20px;
 }
