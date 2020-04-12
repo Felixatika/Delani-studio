@@ -2,7 +2,7 @@
 # DELANI-STUDIO
 Delani studio website
 ## screenshot
-![user interface image].(assets/dnstudio.jpg)
+![image](assets/dnstudio.jpg)
 
 ## Description.
 This project is a web application for Delani studio that shows details about the services the studio offers, has information about the studio, a portfolio section and a form that enables users to send their messages and concern to Delani studios admin. 
