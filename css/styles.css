@@ -38,6 +38,13 @@ padding: 18%;
 color: white;
   padding: 10%;
 }
+.what-we-do{
+  text-align: center;
+  padding-top: 40px;
+}
+what-we-do .main-heading{
+  padding-bottom: 40px;
+}
 .contacts {
   background-image: url(../assets/backgrounds/c_image.jpg);
   background-position: center;
