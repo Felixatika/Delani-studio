@@ -88,6 +88,13 @@ $(document).ready(function () {
   });
 });
 $(document).ready(function () {
+  $("p.text").hover(function () {
+    $(this).css("background-color", "white");
+  }, function () {
+    $(this).css("background-color", "yellow");
+  });
+});
+$(document).ready(function () {
   $("form#contact-form").submit(function (event) {
     var name = $("input#NAME1").val();
     var email = $("input#NAME2").val();
