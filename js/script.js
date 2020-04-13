@@ -87,3 +87,19 @@ $(document).ready(function () {
     $("#overlay7").hide();
   });
 });
+$(document).ready(function () {
+  $("form#contact-form").submit(function (event) {
+    var name = $("input#NAME1").val();
+    var email = $("input#NAME2").val();
+    var message = $("textarea#comment").val();
+    if ($("input#NAME1").val() && $("input#NAME2").val()) {
+      alert(name + ", we have received your message. Thank you for reaching out to us.");
+    }
+    else {
+      alert("Please enter your name and email!");
+
+    }
+  });
+
+});
+
