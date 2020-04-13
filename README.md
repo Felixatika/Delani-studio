@@ -2,10 +2,10 @@
 # DELANI-STUDIO
 Delani studio website
 ## screenshot
-
+![image](assets/dnstudio.jpg)
 
 ## Description.
-This project is a web application for Delani studio that shows details about the services it offers, has information about the studio, a portfolio section and a form that enables users to send their messages and concern to Delani studios. 
+This project is a web application for Delani studio that shows details about the services the studio offers, has information about the studio, a portfolio section and a form that enables users to send their messages and concern to Delani studios admin. 
 
 
 # Author
@@ -22,10 +22,10 @@ scroll down to see the services offered.
 # Mobile support
 The Delani studio is compatible with devices of all sizes and all OS's and consistent improvements are being made.
 
-# Built With
+# Technologies used
 HTML - for front end development
 CSS - styling the user interface.
-Javascript - For the business logic.
+Javascript & jquery- For the business logic.
 markdown - for readme
 mailchimp API
 Bootstrap - for styling of the user interface.
