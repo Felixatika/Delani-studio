@@ -69,6 +69,13 @@ max-height: 100%;
   color: white;
 
 }
+p.text {
+  border-style: solid;
+  border-color: red;
+  text-align: center;
+  color:white;
+}
+
 .center{
   text-align: center;
   margin-top: 20px;
