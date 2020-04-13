@@ -14,7 +14,7 @@ Atika, Felix.
 # Projects Purpose
 Help users find the studio through the cloud, view the services offered and contact the studio.
 # Demo
-Here is a working live demo:
+Here is a working live demo:https://felixatika.github.io/Delani-studio/
 
 # Installation instructions
 Open a browser, copy and paste the live demo link.It will open the landing page of the app.
