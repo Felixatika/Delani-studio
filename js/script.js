@@ -87,13 +87,12 @@ $(document).ready(function () {
     $("#overlay7").hide();
   });
 });
-$(document).ready(function () {
-  $("p.text").hover(function () {
-    $(this).css("background-color", "white");
-  }, function () {
-    $(this).css("background-color", "yellow");
-  });
+$(".ptag").hover(function () {
+  $(this).addClass("ptag");
+}, function () {
+  $(this).removeClass("ptag");
 });
+
 $(document).ready(function () {
   $("form#contact-form").submit(function (event) {
     var name = $("input#NAME1").val();
