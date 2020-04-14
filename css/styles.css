@@ -59,12 +59,7 @@ what-we-do .main-heading{
 max-width: 100%;
 max-height: 100%;
   }
-  .ptag{
-         border: 1px solid white;
-    width: 500px;
-    height: 150px;
-  }
-
+ 
 .contact {
   background-image: url(../assets/backgrounds/c_image.jpg);
   background-position:center center;
